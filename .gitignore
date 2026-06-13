@@ -1,0 +1,11 @@
+# Obsidian 本機狀態（每台電腦不同，不要進版控）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Obsidian 垃圾桶
+.trash/
+
+# 作業系統雜檔
+.DS_Store
+Thumbs.db
