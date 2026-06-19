@@ -1,3 +1,9 @@
 # Secrets — never commit Obsidian / MCP credentials
 .env
 .env.*
+
+# Obsidian per-device state (keep shared config, ignore device-local layout)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
