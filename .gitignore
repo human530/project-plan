@@ -1,0 +1,3 @@
+# Secrets — never commit Obsidian / MCP credentials
+.env
+.env.*
