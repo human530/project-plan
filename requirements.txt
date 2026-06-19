@@ -1,0 +1,13 @@
+# RA Xray AI — MVP 相依套件
+# 一般套件走 PyPI；torch/torchvision 在 Colab 已內建，本機可用：
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+numpy>=1.26
+pillow>=10.0
+scipy>=1.11
+scikit-learn>=1.3
+matplotlib>=3.7
+torch>=2.1
+torchvision>=0.16
+# 真實 DICOM 影像處理（Colab 上使用；smoke test 不需要）：
+# pydicom>=2.4
+# opencv-python>=4.8   # 提供更佳的 CLAHE
